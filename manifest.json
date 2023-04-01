@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "PocketMine-News",
+    "description": "Get notified when a new release is published on your favorite GitHub repository. This extension allows you to keep track of the latest updates to your favorite repositories on GitHub. With just a few clicks, you can set up the extension to monitor any repository and receive notifications whenever a new release is published. Never miss an important update again!",
+    "version": "1.0",
+    "permissions": [],
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png",
+        "512": "icons/512.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/16.png",
+            "48": "icons/48.png",
+            "128": "icons/128.png"
+        },
+        "default_popup": "popup.html"
+    }
+}
